@@ -64,6 +64,7 @@ Run as CLI
 1. From root of directory create and activate virtual environment
 
 ```bash
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python -m sqs_queues_python.sqs_queues priority-10 priority-100 --json
